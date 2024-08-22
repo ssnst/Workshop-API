@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "3f8f3eca-a2f2-4023-aeb4-4b2908cc2711",
+		"name": "Workshop API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36140656"
+	},
+	"item": [
+		{
+			"name": "Get a posts",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Create a post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/posts",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
